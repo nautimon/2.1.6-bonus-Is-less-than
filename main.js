@@ -3,3 +3,9 @@ var num2 = prompt("Enter a value for num2", 9);
 
 // Write your code below
 console.log(num2 < num1);
+// OR:
+if (num2 < num1) {
+  console.log(true);
+} else {
+  console.log(false);
+}
